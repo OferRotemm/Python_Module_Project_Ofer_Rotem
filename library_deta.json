@@ -1,0 +1,271 @@
+{
+    "book_li": {
+        "Gone with the Wind": {
+            "name": "Gone with the Wind",
+            "author": "Margaret Mitchell",
+            "year_published": 1936,
+            "type": 1,
+            "num_of_copies": 10,
+            "maximum_loan_dayes": 10
+        },
+        "Harry Potter and the Philosopher's Stone": {
+            "name": "Harry Potter and the Philosopher's Stone",
+            "author": " J. K. Rowling",
+            "year_published": 1997,
+            "type": 2,
+            "num_of_copies": 8,
+            "maximum_loan_dayes": 5
+        },
+        "Harry Potter and the Deathly Hallows": {
+            "name": "Harry Potter and the Deathly Hallows",
+            "author": " J. K. Rowling",
+            "year_published": 2007,
+            "type": 2,
+            "num_of_copies": 12,
+            "maximum_loan_dayes": 5
+        },
+        "Harry Potter and the Chamber of Secrets": {
+            "name": "Harry Potter and the Chamber of Secrets",
+            "author": " J. K. Rowling",
+            "year_published": 2002,
+            "type": 2,
+            "num_of_copies": 15,
+            "maximum_loan_dayes": 5
+        },
+        "The Catcher in the Rye": {
+            "name": "The Catcher in the Rye",
+            "author": "J. D. Salinger",
+            "year_published": 1951,
+            "type": 1,
+            "num_of_copies": 6,
+            "maximum_loan_dayes": 10
+        },
+        "The Master and Margarita": {
+            "name": "The Master and Margarita",
+            "author": " Mikhail Bulgakov",
+            "year_published": 1967,
+            "type": 1,
+            "num_of_copies": 11,
+            "maximum_loan_dayes": 10
+        },
+        "The Cat in the Hat": {
+            "name": "The Cat in the Hat",
+            "author": "Dr. Seuss",
+            "year_published": 1957,
+            "type": 3,
+            "num_of_copies": 16,
+            "maximum_loan_dayes": 2
+        },
+        "Fox in Socks": {
+            "name": "Fox in Socks",
+            "author": "Dr. Seuss",
+            "year_published": 1965,
+            "type": 3,
+            "num_of_copies": 10,
+            "maximum_loan_dayes": 2
+        },
+        "The Gruffalo's Child": {
+            "name": "The Gruffalo's Child",
+            "author": "  Dr. Seuss",
+            "year_published": 2004,
+            "type": 3,
+            "num_of_copies": 3,
+            "maximum_loan_dayes": 2
+        },
+        "Algebra part 2": {
+            "name": "Algebra part 2",
+            "author": "Bnei Goren",
+            "year_published": 1976,
+            "type": 1,
+            "num_of_copies": 1,
+            "maximum_loan_dayes": 10
+        }
+    },
+    "customer_li": {
+        "00002": {
+            "customer_id": "00002",
+            "name": "Nir",
+            "city": "TLV",
+            "birth_date": "23-6-12",
+            "customer_loans": 1
+        },
+        "00003": {
+            "customer_id": "00003",
+            "name": "Amit",
+            "city": "Kahal",
+            "birth_date": "10-6-86",
+            "customer_loans": 2
+        },
+        "00004": {
+            "customer_id": "00004",
+            "name": "Michal",
+            "city": "Jerusalem",
+            "birth_date": "10-9-52",
+            "customer_loans": 3
+        },
+        "00005": {
+            "customer_id": "00005",
+            "name": "Ariel",
+            "city": "Haifa",
+            "birth_date": "17-4-80",
+            "customer_loans": 2
+        },
+        "00006": {
+            "customer_id": "00006",
+            "name": "Yael",
+            "city": "Kiryat Shmona",
+            "birth_date": "24-1-76",
+            "customer_loans": 1
+        }
+    },
+    "loans": {
+        "L233101": {
+            "customer_id": "00002",
+            "book_name": "The Cat in the Hat",
+            "loandate": [
+                2022,
+                3,
+                23
+            ],
+            "returndate": [
+                2022,
+                3,
+                25
+            ]
+        },
+        "L233102": {
+            "customer_id": "00004",
+            "book_name": "Harry Potter and the Philosopher's Stone",
+            "loandate": [
+                2022,
+                3,
+                23
+            ],
+            "returndate": [
+                2022,
+                3,
+                28
+            ]
+        },
+        "L233103": {
+            "customer_id": "00004",
+            "book_name": "The Catcher in the Rye",
+            "loandate": [
+                2022,
+                3,
+                23
+            ],
+            "returndate": [
+                2022,
+                4,
+                3
+            ]
+        },
+        "L233104": {
+            "customer_id": "00004",
+            "book_name": "Algebra part 2",
+            "loandate": [
+                2022,
+                3,
+                23
+            ],
+            "returndate": [
+                2022,
+                4,
+                3
+            ]
+        },
+        "L233107": {
+            "customer_id": "00003",
+            "book_name": "The Gruffalo's Child",
+            "loandate": [
+                2022,
+                3,
+                23
+            ],
+            "returndate": [
+                2022,
+                3,
+                25
+            ]
+        },
+        "L233109": {
+            "customer_id": "00003",
+            "book_name": "Gone with the Wind",
+            "loandate": [
+                2021,
+                8,
+                4
+            ],
+            "returndate": [
+                2021,
+                8,
+                15
+            ]
+        },
+        "L233110": {
+            "customer_id": "00006",
+            "book_name": "Fox in Socks",
+            "loandate": [
+                2022,
+                3,
+                15
+            ],
+            "returndate": [
+                2022,
+                3,
+                17
+            ]
+        },
+        "L233111": {
+            "customer_id": "00005",
+            "book_name": "Fox in Socks",
+            "loandate": [
+                2022,
+                3,
+                23
+            ],
+            "returndate": [
+                2022,
+                3,
+                25
+            ]
+        },
+        "L233112": {
+            "customer_id": "00005",
+            "book_name": "Gone with the Wind",
+            "loandate": [
+                2022,
+                1,
+                16
+            ],
+            "returndate": [
+                2022,
+                1,
+                26
+            ]
+        }
+    },
+    "num_of_customers_created": 6,
+    "available_copies": {
+        "Gone with the Wind": 8,
+        "Harry Potter and the Philosopher's Stone": 7,
+        "Harry Potter and the Deathly Hallows": 12,
+        "Harry Potter and the Chamber of Secrets": 15,
+        "The Catcher in the Rye": 5,
+        "The Master and Margarita": 11,
+        "The Cat in the Hat": 15,
+        "Fox in Socks": 8,
+        "The Gruffalo": 3,
+        "The Gruffalo's Child": 2,
+        "Algebra part 2": 0
+    },
+    "limited_accounts": {
+        "00001": [
+            2022,
+            4,
+            6
+        ]
+    },
+    "counte": 112
+}
